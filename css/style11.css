@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+.HappyEad {
+    width: 100%;
+    height: 97vh;
+    background-image: linear-gradient(rgba(10, 7, 7, 0.5) , rgba(14, 9, 9, 0.5)) , url("task11/images/eid.jpg") ;
+    background-size: 100%;
+
+}
+header {
+   
+    display: flex;
+    justify-content: space-between;
+    margin-top: -40px;
+    flex-wrap: wrap;
+}
+.one {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    text-transform: capitalize;
+    font-size:35px;
+    text-shadow: 2px 2px 1px rgb(177, 0, 0);
+    padding: 30px;
+    margin-top: 40px;
+    font-weight: bolder;
+}
+.two {
+    color: #fff;
+    margin: 65px 45px;
+    font-size: 25px;
+    text-transform: capitalize;
+    display: flex;
+}
+.i {
+    margin: 20px 12px;
+    padding: 5px 12px;
+    
+    height: 33px;
+    text-align: center;
+}
+.two .i:hover {
+     background-color: rgb(255, 200, 0);
+     border-radius: 8px;
+}
+.TheEnd {
+    width: 100%;
+    height: 40vh;
+    color: rgba(255, 255, 255, 0.936);
+    font-size: 57px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-transform: capitalize;
+    text-shadow: 4px 4px 3px #888;
+}
+span {
+    color: #ffc800;
+}
+.head h2 {
+    color: #ffc800;
+    font-size: 50px;
+    text-shadow: 3px 3px 3px #888;
+}
+.head p {
+    color: #888;
+    font-size: 18px;
+    margin: 20px;
+}
+.head {
+    width: 90%;
+    
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+  
+}
+.middle {
+    width: calc(100%-130px);
+    display: flex;
+    gap: 40px;
+    margin-left: 130px;
+}
+.middle div {
+    width: 20%;
+    height: 35vh;
+    text-align: center;
+
+}
+
+.middle .d1 , .d3 {
+    background-color: rgb(100, 99, 99);
+}
+.middle .d2 , .d4 {
+    background-color: #ffc800;
+} 
+.middle i {
+    font-size: 65px;
+    color: #fff;
+    margin: 15px 0 10px ;
+}
+.middle h1 {
+    font-size: 27px;
+    color: #000;
+    margin: 10px;
+}
+.middle p{
+    font-size: 15px;
+    color: #fff;
+    padding: 15px;
+}
+.d1 , .d2 , .d3 , .d4 {
+    border-radius: 7px;
+    box-shadow: 5px 5px 2px rgb(83, 78, 78);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.galary img {
+    width: 376px;
+    height: 37vh;
+}
+.galary {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffc800d1;
+    margin: 50px 0px;
+    margin-bottom: 100px;
+    padding: 2px;
+    column-gap: 3px;
+}
+.ga {
+    color:rgb(255, 200, 0);
+    text-align: center;
+    font-size: 43px;
+    margin-top: 90px;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 2px #888;
+}
+.form {
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(33, 48, 21, 0.6) , rgba(31, 57, 24, 0.4)) , url("task11/images/9.jpg");
+    background-size: 100%;
+    position: relative;
+}
+form {
+    width: 57%;
+    height: 66vh;
+    background-color: rgba(3, 76, 131, 0.471);
+    border: 4px solid #fbca18;
+    border-radius: 5px;
+    position: absolute;
+    top: 90px;
+    left: 348px;
+    text-align: center;
+}
+.title {
+    color: rgba(255, 255, 255, 0.867);
+    margin-top: 38px;
+    margin-bottom: 15px;
+    
+}
+.title h1 {
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.title p {
+    font-size: 20px;
+}
+input , textarea {
+    width: 70%;
+    margin: 10px;
+    background-color: rgba(12, 90, 82, 0.4);
+    padding: 5px 10px;
+    border: none;
+    border-bottom: 2px #f9cc2a solid;
+    color: #f9cc2a;
+    
+}
+input::placeholder , textarea::placeholder {
+    color: #f9cc2a;
+}
+input {
+    height: 30px;
+}
+#button {
+    background-color: rgba(12, 90, 82, 0.4);
+    color: #fbca18;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    padding: 7px 40px;
+    border: 2px #fff solid;
+
+}
+.header {
+    width: 100%;
+    height: 55vh;
+    background-color: #f9cc27;
+}
+.header .last {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    font-size: 50px;
+}
+.last div {
+    margin: -15px 20px;
+}
+.facebook {
+    color: blue;
+}
+.twitter {
+    color: rgb(78, 138, 198);
+}
+.google {
+    color: rgb(187, 0, 0);
+}
+.insta {
+    color: rgba(236, 92, 233, 0.821);
+}
+.cloud {
+    color: rgb(1, 1, 204);
+}
+.first div {
+    width: 30%;
+    height: 7vh;
+}
+.first {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 70px 150px;
+    color: rgba(0, 0, 0, 0.744);
+}
+.header .number {
+    font-size: 20px;
+    color: rgba(14, 35, 11, 0.695);
+}
